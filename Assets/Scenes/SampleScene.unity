@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ace77e3383583184c95cc41a90921689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementDirection: {x: 0, y: 0, z: 0.005}
+  _movementDirection: {x: 0, y: 0, z: 0.01}
 --- !u!135 &353288963
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -807,7 +807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 689a1dd53b3129c46beb851c6a358c53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0.01
+  _speed: 0.06
 --- !u!114 &1655296375
 MonoBehaviour:
   m_ObjectHideFlags: 0
