@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class ForwardMover : MonoBehaviour
 {
-    private const float Speed = 6f;
+    [SerializeField] private float _speed;
 
     void Update()
     {
-        Vector3 forwardDirection = transform.forward;
-
-        Vector3 movement = forwardDirection * Speed * Time.deltaTime;
-
-        transform.position += movement;
+        transform.Translate(transform.forward * _speed);
     }
 }
